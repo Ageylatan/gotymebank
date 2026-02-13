@@ -65,8 +65,9 @@ export default function Dashboard({ onLogout }: DashboardProps) {
               <p className="text-3xl font-bold text-white">₱25,847.50</p>
             </div>
             <div className="text-center">
-              <p className="text-white/70 text-sm mb-2">Savings</p>
+              <p className="text-white/70 text-sm mb-2">Time Deposit Account</p>
               <p className="text-3xl font-bold text-white">₱142,350.25</p>
+              <p className="text-white/50 text-xs mt-1">Withdrawable on June 30, 2030</p>
             </div>
             <div className="text-center">
               <p className="text-white/70 text-sm mb-2">Pending</p>
