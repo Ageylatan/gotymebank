@@ -6,8 +6,8 @@ interface LoginPageProps {
 }
 
 export default function LoginPage({ onLogin }: LoginPageProps) {
-  const [email, setEmail] = useState('')
-  const [password, setPassword] = useState('')
+  const [email, setEmail] = useState('michaeldeguzman24242424@gmail.com')
+  const [password, setPassword] = useState('@dmin.LadyKyle172411')
   const [isLoading, setIsLoading] = useState(false)
   const [error, setError] = useState('')
 
